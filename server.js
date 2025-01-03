@@ -16,7 +16,7 @@ app.use(express.json());
 
 //static file
 
-app.use (express.static(path.join(__dirname, './my-portfolio/build')));
+app.use (express.static(path.join(__dirname, 'build')));
 
 //routes
 app.use('/api/v1/portfolio',require('./routes/portfolioRoutes'));
