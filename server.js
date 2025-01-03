@@ -16,12 +16,12 @@ app.use(express.json());
 
 //static file
 
-app.use (express.static(path.join(__dirname, 'build')));
+app.use (express.static(path.join(__dirname, ./my-portfolio/build')));
 
 //routes
 app.use('/api/v1/portfolio',require('./routes/portfolioRoutes'));
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'))
+    res.sendFile(path.join(__dirname, ./my-portfolio/build/index.html))
 });
 
 
