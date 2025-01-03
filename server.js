@@ -25,11 +25,11 @@ app.get('*', function(req,res){
 });
 
 //ports
-const PORT = process.env.PORT || 10000;
-const HOST = '0.0.0.0';
+const port = process.env.PORT || 3000;
+const host = '0.0.0.0';
 
 
 //listen
-app.listen(PORT, HOST, () => {
-    console.log(`Server is running on http://${HOST}:${PORT}`);
+app.listen(port, host, () => {
+    console.log(`Server is running on http://${host}:${port}`);
 });
