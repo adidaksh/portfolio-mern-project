@@ -1,0 +1,121 @@
+.contact{
+    margin-left: 112px;
+    margin-bottom: 50px;
+    padding-top: 80px;
+
+}
+
+
+.card0{
+    box-shadow: 0  4px  8px 0;
+    border-radius: 0;
+}
+.card2{
+    
+    margin: 0 40px;
+}
+.card1 .images{
+    height: 450px;
+    width: auto;
+   margin-left:85px;
+}
+.border-line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-right: 1.5px solid rgb(164, 164, 164);
+}
+.line{
+    height: 1px;
+    width: 45%;
+    background-color: rgb(208, 208, 208);
+    margin-top: 10px;
+
+}
+
+.or{
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: #bdbdbd;
+    opacity: 1;
+    font-weight: 300;
+}
+
+input, textarea{
+    padding: 10px 12px;
+    border: 1px solid rgb(194, 194, 194) !important;
+    border: 2px;
+    margin-top: 2px;
+    margin-top: 5px;
+    width: 100%;
+    color: rgb(31, 32, 32);
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+input:focus, textarea:focus{
+    box-shadow: none !important;
+    outline: 1px solid #138781 !important;
+    outline-width: 0px;
+}
+
+button:focus{
+    box-shadow: none;
+    outline-width: 0px;
+
+}
+.button {
+    background-color: #138781;
+    color: aliceblue;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #17a9a2;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
+}
+
+@media(max-width:600px){
+    .contact{      
+        margin: 0;
+        padding: 0;
+        margin-top: 45px;
+        margin-bottom: 10px;
+
+    }
+            
+    .contact .card2{
+        margin: 0;
+    }
+    .contact .card2 h5{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .border-line{
+      
+        border-right: 0;
+    }
+
+    .card1 .images{
+        height: 400px;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.link-red{
+    cursor: pointer;
+}

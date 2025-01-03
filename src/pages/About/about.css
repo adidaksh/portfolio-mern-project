@@ -1,0 +1,51 @@
+.about{
+    margin: 40px 0px;
+    padding: 20px;
+    margin-left: 120px;
+    
+    }
+.about-img img{
+    margin-top: 60px;
+    border-radius:10px;
+    height:600px;
+    width: 90%;
+} 
+.about-content{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-content h1{
+    font-family: cursive;
+    border-bottom: 3px solid grey;
+    color: rgb(47, 173, 180);
+}
+
+.about-content p{
+    text-align: justify;
+    padding: 50px;
+    font-weight: 400;
+    font-family: Playfair Display;
+    font-size: 23px;
+    color: rgb(95, 92, 92);
+
+}
+
+@media(max-width:600px){
+    .about{
+        margin: 0;
+        padding: 0;
+        margin-top:20px ;
+       
+    }
+  .about-content h1{
+    margin-top: 48px;
+  }
+  .about-img img{
+    margin-top: 12px;
+    width: 100%;
+    height: 100%;
+  }
+}

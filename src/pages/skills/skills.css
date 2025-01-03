@@ -1,0 +1,109 @@
+.techStack{
+    padding-left: 110px;
+    margin-top: 60px;
+    
+}
+.techStack hr{
+    font-weight: bold;
+    width: 400px;
+    margin: 10px auto;
+    color: rgb(80, 82, 82);
+}
+.techStack h2{
+    color: rgb(80, 82, 82);
+     font-weight: bold;
+
+}
+
+.techStack p{
+    font-size: 18px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+    
+
+/* Base card styling */
+.card-skill {
+  
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Scale effect on hover */
+  .card-skill:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling the icon inside the card */
+  .tech-icon {
+    font-size: 40px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  /* Change icon color on hover */
+  .card-skill:hover .tech-icon {
+    color: #007bff; /* Change to your desired color */
+  }
+  
+  /* Text color change and wave effect */
+  .card-skill:hover h5 {
+    color: #007bff; /* Change text color */
+    animation: wave 0.5s ease-in-out;
+  }
+  
+  /* Wave animation */
+  @keyframes wave {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Optional: Additional styling for media alignment */
+  .media {
+    align-items: center;
+  }
+  
+
+
+@media(max-width:600px){
+    .techStack{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+.techStack hr{
+    width: 300px;
+}
+}
+    
+
+
+
+
+
+
+
+
+
+.media-body{
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+      font-weight: bold;
+      color: rgb(80, 82, 82);
+
+}
+
+
+

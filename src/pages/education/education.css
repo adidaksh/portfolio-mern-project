@@ -1,0 +1,28 @@
+.education{
+    margin: 50px 0;
+    margin-left: 110px;
+}
+
+.education hr{
+    font-weight: bold;
+    width: 400px;
+    margin: 10px auto;
+    color: rgb(29, 29, 29);
+}
+.education h2{
+    color: rgb(80, 82, 82);
+     font-weight: bold;
+
+}
+
+@media(max-width:600px){
+    .education{
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .education hr{
+        width: 300px;
+    }
+}

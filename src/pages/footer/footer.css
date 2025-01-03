@@ -1,0 +1,35 @@
+.footer{
+
+    margin-left: 110px;
+    background: #ebeaea;
+    border-radius: 10px;
+}
+
+.detail{
+        margin: 0;
+        margin-left: 20px;
+     
+    }
+
+.info{
+    color: #138781;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.deve .copyright{
+    color: #138781;
+    margin-top: 100px !important;
+}
+
+
+
+@media(max-width:600px){
+    .footer{      
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+    }
+}

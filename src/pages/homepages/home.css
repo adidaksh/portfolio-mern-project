@@ -1,0 +1,77 @@
+.home-container{
+    height: 300px;
+    color: rgb(255, 255, 255);
+    padding-left: 200px;
+    font-family: Playfair Display;
+    }
+
+    .homes{
+        display: flex;
+    }
+.home-content h2{
+    font-weight: 500;
+    font-size: 40px;
+    padding: 5px;
+    padding-top: 80px;
+       /* margin-left: 150px; */
+}
+.home-content h1{
+  color: aqua;
+  padding: 5px;
+  /* margin-left: 150px; */
+}
+.home-button{
+    text-decoration: solid;
+    margin-top: 15px;
+ 
+ /* margin-left: 150px; */
+
+}
+.home-button .btn-hire{
+    font-size: 16px;
+    background-color: aqua;
+    color: #252424;
+    width: 120px;
+
+   }
+   .home-button .btn-hire:hover{
+    background-color: rgb(255, 255, 255) !important;
+    color: #272727;
+    background: transparent;
+    border: 2px solid #ffffff;
+    transition: all 0.7s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   
+   }
+
+   .home-button .btn-cv{
+    font-size: 16px;
+    margin-left: 10px;
+    
+    background-color: aqua;
+    width: 120px;
+   }
+   .home-button .btn-cv:hover{
+    background-color: white;
+    width: 120px;
+    color: rgb(41, 134, 228);
+    transition: 1s;
+   }
+
+    
+  
+
+
+   /* ===============================*/
+   @media(max-width:600px){
+    .home-container{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .home-container .home-button{
+        display: flex;
+        width:80%;
+        margin-top: 30px;
+    }
+   }
