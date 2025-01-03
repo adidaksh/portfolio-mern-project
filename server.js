@@ -18,7 +18,7 @@ app.use(express.json());
 
 app.use (express.static(path.join(__dirname, 'build')));
 
-routes
+//routes
 app.use('/api/v1/portfolio',require('./routes/portfolioRoutes'));
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'))
