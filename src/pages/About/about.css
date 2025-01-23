@@ -18,7 +18,7 @@
     justify-content: center;
 }
 .about-content h1{
-    font-family: cursive;
+    
     border-bottom: 3px solid grey;
     color: rgb(80, 82, 82);
 }
@@ -29,7 +29,7 @@
     font-weight: 400;
     font-family: Playfair Display;
     font-size: 23px;
-    color: rgb(95, 92, 92);
+    color: #fff;
 
 }
 
