@@ -12,7 +12,7 @@ const About = () => {
     animate={{ opacity: 1 }}
     transition={{ duration: 0.5 }}
   >
-      <div className="about" id="about">
+      <div className="about bg-dark" id="about">
         <div className="row">
           <div className="col-md-6 about-img">
             <img src={image} alt="profile-pic" />
